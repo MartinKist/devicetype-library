@@ -1,0 +1,60 @@
+---
+manufacturer: Netgear
+model: GS108LP
+slug: netgear-gs108lp
+part_number: GS108LP
+u_height: 1
+front_image: true
+rear_image: true
+airflow: passive
+weight: 0.6
+weight_unit: kg
+is_full_depth: false
+comments: >
+  [Product Page](https://www.netgear.com/support/product/gs108lp#docs)  
+  [Data Sheet](https://www.netgear.com/de/images/datasheet/switches/gs108lp_gs108pp_gs116lp_gs116pp_ds.pdf)
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 68
+interfaces:
+  - name: GigabitEthernet/1
+    type: 1000base-t
+    label: 1
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/2
+    type: 1000base-t
+    label: 2
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/3
+    type: 1000base-t
+    label: 3
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/4
+    type: 1000base-t
+    label: 4
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/5
+    type: 1000base-t
+    label: 5
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/6
+    type: 1000base-t
+    label: 6
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/7
+    type: 1000base-t
+    label: 7
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: GigabitEthernet/8
+    type: 1000base-t
+    label: 8
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
